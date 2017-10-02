@@ -20,7 +20,7 @@
 
         <form class="navbar-form" role="search">
             <div class="input-group">
-                <input type="text" class="form-control" placeholder="Search" name="srch-term" ng-model="searchSpec.filter">
+                <input type="text" class="form-control" placeholder="Search by name" name="srch-term" ng-model="searchSpec.filter">
                 <div class="input-group-btn">
                     <button class="btn btn-default" type="submit" ng-click="applyFilter(false);">Search</button>
                 </div>
