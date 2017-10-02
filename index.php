@@ -27,12 +27,12 @@
             </div>
         </form>
 
-        <div class="error">
+        <div class="error" >
             {{message}}
         </div>
 
         <div>
-            <div class="totalRecord pull-left">{{totalRecords}} Result Found</div>
+            <div class="totalRecord pull-left" ng-hide="showloader">{{totalRecords}} Result Found</div>
             <div class="pull-right" ng-if="totalRecords > searchSpec.pageSize">
                 <uib-pagination boundary-links="true"
                                 boundary-link-numbers="true"
